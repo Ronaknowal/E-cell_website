@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    padding: 80px;
+  color: rgb(128, 19, 12);
+  background-image: url(Images/Cell.jpg);
+  background-size: 1500px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+  font: inherit;
+  font-size: 50px;
+  text-align: center;
+  border: blueviolet;
+}
+a {
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+nav {
+  background-color: black;
+  text-align: right;
+  padding: 10px;
+}
+.about{
+    text-align: center;
+    font-size: 150%;
+    background-image: url(Images/About.jpg);
+    height: 800px;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Events{
+    text-align:center;
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-size: 300%;
+}
+h1{
+    font-size: 300%;
+}
+nav a:hover{
+    color: blue;
+}
