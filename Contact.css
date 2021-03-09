@@ -6,9 +6,10 @@ body{
     margin:15px 30px;
     font-size: 17px;
     padding: 8px;
+    background-image: url(Images/Event\ \(2\).jpg);
 }
 .Box{
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.6);
     padding: 10px 20px;
     border: 2px solid grey;
     border-radius: 6px;
