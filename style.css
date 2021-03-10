@@ -11,8 +11,7 @@
 }
 header {
   padding: 8%;
-  padding-bottom: 20%;
-  height: 100%;
+  padding-bottom: 23%;
   background-color: rgba(0, 0, 0, 0.6);
   color: yellow;
   font: inherit;
@@ -73,42 +72,55 @@ nav a:hover {
 @media all and (max-width: 717px){
     header{
         font-size: 230%;
+        padding: 15%;
+        padding-bottom: 37%;
     }
     .about{
         font-size: 135%;
+        padding: 15%;
+        padding-bottom: 60%;
     }
 }
-@media all and (max-width: 501px){
+@media all and (max-width: 571px){
     header{
         font-size: 200%;
+        padding: 20%;
+        padding-bottom: 45%;
     }
     header img{
         width: 180px;
     }
     .about{
         font-size: 120%;
+        padding: 17%;
+        padding-bottom: 63%;
     }
 }
-@media all and (max-width: 435px){
+@media all and (max-width: 517px){
     header{
         font-size: 150%;
+        padding-bottom: 55%;
     }
     header img{
         width: 150px;
     }
     .about{
         font-size: 100%;
+        padding-bottom: 70%;
     }
 }
-@media all and (max-width: 329px){
+@media all and (max-width: 421px){
     header{
         font-size: 100%;
+        padding-bottom: 65%;
     }
     header img{
         width: 130px;
     }
     .about{
         font-size: 80%;
+        font-size: 100%;
+        padding-bottom: 80%;
     }
 }
 .container {
