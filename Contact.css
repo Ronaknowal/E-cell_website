@@ -1,44 +1,50 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:15px 30px;
-    font-size: 17px;
-    padding: 8px;
-    background-image: url(Images/Event\ \(2\).jpg);
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 8px;
 }
-.Box{
+.backgroundimg{
+    background-image: url(Images/contact_us.jpg);
+    background-size: 100%;
+}
+.Box {
     background-color: rgba(169, 169, 169, 0.6);
     padding: 10px 20px;
     border: 2px solid grey;
     border-radius: 6px;
 }
 input[type="text"],
-input[type="email"]{
-    width: 30%;
+input[type="email"] {
+  width: 150px;
 }
 input[type="submit"],
-input[type="reset"]{
-    width: 5%;
+input[type="reset"] {
+  width: 100px;
 }
-textarea{
-    width: 100%;
+textarea {
+  width: 100%;
 }
-fieldset{
-    background-color: white;
-    border: 1px solid gray;
+fieldset {
+  background-color: white;
+  border: 1px solid gray;
 }
 input[type="submit"],
-input[type="reset"]{
-    background-color: rgb(62, 154, 190);
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 10px;
-    cursor: pointer;
+input[type="reset"] {
+  background-color: rgb(62, 154, 190);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
 }
 input[type="submit"]:hover,
-input[type="reset"]:hover{
-    background-color: springgreen;
+input[type="reset"]:hover {
+  background-color: springgreen;
+}
+em{
+    color: red;
 }

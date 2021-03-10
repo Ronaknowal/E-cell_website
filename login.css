@@ -1,34 +1,40 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 5%;
-    padding: 1%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+body {
+  margin: 5%;
+  padding: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+}
+.backgroundimg{
     background-image: url(Images/T.jpg);
+    background-size: 100%;
 }
-.content{
+.content {
     background-color: rgba(255, 99, 71, 0.473);
     padding: 1%;
-    border:2px solid red;
+    border: 2px solid red;
     border-radius: 6px;
 }
 input[type="text"],
 input[type="date"],
-input[type="password"]{
-    width: 10%;
+input[type="password"] {
+  width: 100px;
 }
 input[type="submit"],
-input[type="reset"]{
-    width: 5%;
-    padding: 7px;
-    background-color: red;
-    border: none;
-    border-radius: 4px;
-    color: white;
+input[type="reset"] {
+  width: 70px;
+  padding: 7px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
 }
 input[type="submit"]:hover,
-input[type="reset"]:hover{
-    background-color: orange;
+input[type="reset"]:hover {
+  background-color: orange;
+}
+em{
+    color: red;
 }

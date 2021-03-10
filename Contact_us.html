@@ -9,25 +9,25 @@
   </head>
   <Header>
   <body>
-    <div class="Box">
-    <p>Required feilds are followed by *</p>
-    <hr>
-    <form action="">
-      <h3>Contact us</h3>
-      <hr>
-      <p>Name: *<input type="text" name="name" required placeholder="Your Name"/></p>
-      <p>Email: *<input type="email" name="email" id="email" required placeholder="example@xyz.com"/></p>
-      <fieldset>
-        <legend>Institute: *</legend>
+    <div class="backgroundimg">
+      <div class="Box">
+        <form action="">
+        <h3>Contact us</h3>
+        <hr>
+        <p>Required feilds are followed by <em>*</em></p>
+        <p>Name: <em>*</em><input type="text" name="name" required placeholder="Your Name"/></p>
+        <p>Email: <em>*</em><input type="email" name="email" id="email" required placeholder="example@xyz.com"/></p>
+        <fieldset>
+        <legend>Institute: <em>*</em></legend>
         <p>
           VITian
           <input type="radio" name="Institute" id="VITian" required />
           Non-VITian
           <input type="radio" name="Institute" id="Non-VITian" required />
         </p>
-      </fieldset>
-      <p>
-        Message: *<textarea
+        </fieldset>
+        <p>
+        Message: <em>*</em><textarea
           name="Message"
           id="message"
           cols="100"
@@ -38,7 +38,8 @@
       </p>
       <input type="submit" value="Submit" />
       <input type="reset" value="Clear" />
-    </form>
+      </form>
+      </div>
     </div>
   </body>
 </html>
