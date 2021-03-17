@@ -16,6 +16,7 @@ body {
     padding: 1%;
     border: 2px solid red;
     border-radius: 6px;
+    box-shadow: 20px 30px 50px;
 }
 input[type="text"],
 input[type="date"],

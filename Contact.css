@@ -16,6 +16,7 @@ body {
     padding: 10px 20px;
     border: 2px solid grey;
     border-radius: 6px;
+    box-shadow: 20px 30px 50px;
 }
 input[type="text"],
 input[type="email"] {
